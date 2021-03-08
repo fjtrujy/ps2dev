@@ -28,7 +28,7 @@ jobs:
       if: matrix.os == 'macOS-latest'
       run: |
         brew update
-        brew install texinfo bison flex gnu-sed gsl gmp mpfr
+        brew install texinfo bison flex gnu-sed gsl gmp mpfr libmpc
 
     - name: Runs all the stages in the shell
       run: |
